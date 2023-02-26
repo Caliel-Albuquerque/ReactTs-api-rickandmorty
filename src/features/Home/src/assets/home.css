@@ -1,0 +1,67 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    column-gap: 0.3rem;
+    row-gap: 2rem;
+
+    padding: 5rem;
+
+}
+
+.containerButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+
+    gap: 1rem;
+}
+
+.containerButtons button{
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border: 2px solid #ff9800;
+    color: #ff9800;
+    cursor: pointer;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    transition: 0.5s all ease-in-out;
+}
+
+.containerButtons button:hover{
+    background-color: #ff9800;
+
+    color: #fff;
+}
+
+.containerButtons button:not(.containerButtons button:hover){
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 767px) {
+    .main{
+        grid-template-columns: 1fr;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerButtons{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 1.5rem;
+    }
+
+    .containerButtons button{
+        font-size: 0.8rem;
+    }
+}

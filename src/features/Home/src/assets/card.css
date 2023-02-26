@@ -1,0 +1,39 @@
+.card-contain{
+    background-color: #3c3e44;
+    border-radius: 0.7rem;
+
+    margin-top: 2rem;
+    transition: 0.5s all ease-in-out;
+}
+
+.card-contain:hover{
+    box-shadow: 10px 9px 0px -3px rgba(0,0,0,0.36);
+    transform: scale(0.98);
+}
+
+.card-contain img{
+    width: 100%;
+}
+
+.card-content{
+    padding: 1rem;
+}
+
+.card-content h1{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    gap: 1rem;
+}
+
