@@ -5,6 +5,7 @@ Este é um projeto React com TypeScript que utiliza as seguintes tecnologias:
 * Hooks useState e useEffect para gerenciar o estado dos componentes e lidar com o ciclo de vida da aplicação.
 * Biblioteca react-router-dom para criar rotas e navegação entre as páginas.
 * Biblioteca react-icons para adicionar ícones aos componentes.
+* Biblioteca style-components para deixar os componentes dinâmicos
  * É responsivo, adaptando-se a diferentes tamanhos de tela.
 * Realiza uma chamada para a API do Rick and Morty para exibir informações sobre os personagens.
 
