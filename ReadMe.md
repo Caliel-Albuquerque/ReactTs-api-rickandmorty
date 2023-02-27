@@ -1,5 +1,7 @@
 # Rick and Morty Characters
 
+![imageRickandMorty](https://user-images.githubusercontent.com/75955275/221437074-8cbc0021-6a87-43f5-8720-10410a492fdd.png)
+
 Este é um projeto React com TypeScript que utiliza as seguintes tecnologias:
 
 * Hooks useState e useEffect para gerenciar o estado dos componentes e lidar com o ciclo de vida da aplicação.
@@ -19,5 +21,7 @@ Ao clicar em um personagem na lista da página inicial, o usuário é redirecion
 
 ## Responsividade
 A aplicação é responsiva e adapta-se a diferentes tamanhos de tela, garantindo uma boa experiência do usuário em dispositivos móveis.
+
+https://user-images.githubusercontent.com/75955275/221437428-14bfd66d-3c31-48cd-8049-b91704617e1b.mp4
 
 
