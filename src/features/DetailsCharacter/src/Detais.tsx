@@ -53,6 +53,7 @@ export function Details() {
                             <DivStatus status={character?.status}></DivStatus>
                             <h3>{character?.status}</h3>
                             <h3>{character?.species}</h3>
+                            
                         </div>
                     </div>
 
